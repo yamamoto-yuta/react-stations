@@ -10,6 +10,36 @@ header {
     text-align: center;
 }
 
+#description {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 50px;
+}
+
+#descriptionText {
+    flex-grow: 2;
+    margin: auto;
+}
+
+#dogImageView {
+    display: flex;
+    flex-direction: column;
+}
+
+#dogImageUpdateButton {
+    text-align: right;
+}
+
+.btn-flat {
+    overflow: hidden;
+    padding: 10px 20px;
+  
+    color: #fff;
+    border-radius: 10px;
+    background-color: dodgerblue;
+}
+
+/* 
 .full-width {
     width: 100%;
 }
@@ -37,4 +67,4 @@ header {
     color: #fff;
     border-radius: 10px;
     background-color: dodgerblue;
-}
+} */
