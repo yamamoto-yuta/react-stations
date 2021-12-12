@@ -10,11 +10,11 @@ export function Description() {
 
   function updateDogUrl() {
     fetch("https://dog.ceo/api/breeds/image/random")
-      .then(res => res.json())
+      .then(response => response.json())
       .then(
-        (result) => {
+        (data) => {
           setIsLoaded(true);
-          setDogUrl(result.message);
+          setDogUrl(data.message);
         },
         (error) => {
           setIsLoaded(true);
