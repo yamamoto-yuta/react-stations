@@ -3,7 +3,6 @@
 import React from "react";
 
 export function BreedsSelect(props) {
-  console.log(props.breeds);
   return (
     <select
       value={props.selectedBreed}

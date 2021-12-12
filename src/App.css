@@ -33,8 +33,13 @@ header {
 .btn-flat {
     overflow: hidden;
     padding: 10px 20px;
-  
     color: #fff;
     border-radius: 10px;
     background-color: dodgerblue;
+}
+
+.img-trimed {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }

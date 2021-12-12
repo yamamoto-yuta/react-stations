@@ -3,5 +3,5 @@
 import React from "react";
 
 export function DogImage(props) {
-  return <img src={props.url} />
+  return <img className="img-trimed" src={props.url} />
 }
